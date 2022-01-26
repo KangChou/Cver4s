@@ -5,3 +5,5 @@ tensorflow实现YoloV1:[https://github.com/TowardsNorth/yolo_v1_tensorflow_guiyu
 [https://pjreddie.com/darknet/](https://pjreddie.com/darknet/)
 
 YOLO（You Only Look Once，包括YOLOv1、YOLOv2、YOLOv3）使用tensorflow，包括/检测和导出pb脚本。将网权重转换为张量流。使用TF_Slim实现YOLO:[https://github.com/Robinatp/YOLO_Tensorflow](https://github.com/Robinatp/YOLO_Tensorflow)https://github.com/Robinatp/YOLO_Tensorflow
+
+YOLO 的 TensorFlow 实现，包括训练和测试阶段：[https://github.com/hizhangp/yolo_tensorflow](https://github.com/hizhangp/yolo_tensorflow)
