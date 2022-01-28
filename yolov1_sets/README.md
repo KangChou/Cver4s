@@ -1,5 +1,7 @@
 yolov1：[https://github.com/pjreddie/darknet](https://github.com/pjreddie/darknet)
 
+YOLO---多个版本的简单认识：[https://www.cnblogs.com/carle-09/p/11326272.html](https://www.cnblogs.com/carle-09/p/11326272.html)
+
 tensorflow实现YoloV1:[https://github.com/TowardsNorth/yolo_v1_tensorflow_guiyu](https://github.com/TowardsNorth/yolo_v1_tensorflow_guiyu)
 
 使用两种方法创建车辆检测管道：（1）深度神经网络（YOLO 框架）和（2）支持向量机（OpenCV + HOG）：[https://github.com/JunshengFu/vehicle-detection](https://github.com/JunshengFu/vehicle-detection)
