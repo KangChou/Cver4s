@@ -1,6 +1,29 @@
 yolov1：[https://github.com/pjreddie/darknet](https://github.com/pjreddie/darknet)
 
 YOLO---多个版本的简单认识：[https://www.cnblogs.com/carle-09/p/11326272.html](https://www.cnblogs.com/carle-09/p/11326272.html)
+```
+(1)测试一张图片---detect
+./darknet detect cfg/yolov3.cfg weights/yolov3.weights data/person.jpg
+./darknet detector test cfg/coco.data cfg/yolov3.cfg weights/yolov3.weights data/person.jpg
+
+(2)测试本地视频---demo
+./darknet detector demo cfg/coco.data cfg/yolov3.cfg weights/yolov3.weights wp_video/person002.mp4
+
+(3)测试usb视频---
+./darknet detector demo cfg/coco.data cfg/yolov3.cfg weights/yolov3.weights
+
+(4)测试rstp视频---
+./darknet detector demo ./cfg/coco.data ./cfg/yolov3.cfg weights/yolov3.weights rtsp://admin:admin12345@192.168.?.??/H.264/ch1/sub/av_stream -i 0 -thresh 0.25
+
+./darknet detector demo ./cfg/coco.data ./cfg/yolov3.cfg weights/yolov3.weights rtsp://admin:admin12345@192.168.?.??/H.264/ch1/sub/av_stream -i 0
+
+-----------to test many pics------------------------
+./darknet detect cfg/yolov3.cfg weights/yolov3.weights -i 2 #CPU  enter
+Enter Image Path:
+
+./darknet detect cfg/yolov3.cfg weights/yolov3.weights -i 0 #GPU  enter
+Enter Image Path: 
+```
 
 tensorflow实现YoloV1:[https://github.com/TowardsNorth/yolo_v1_tensorflow_guiyu](https://github.com/TowardsNorth/yolo_v1_tensorflow_guiyu)
 
