@@ -1,5 +1,12 @@
 yolov1：[https://github.com/pjreddie/darknet](https://github.com/pjreddie/darknet)
 
+darknet训练自己的数集:[https://blog.csdn.net/maizousidemao/article/details/103442356](https://blog.csdn.net/maizousidemao/article/details/103442356)
+```
+Ubuntu16.04配置安装darknet+OPENCV:https://blog.csdn.net/gzj_1101/article/details/78651650
+./darknet detector train cfg/voc.data cfg/yolov3-tiny.cfg | tee person_train_log.txt
+./darknet detect cfg/yolov3-tiny.cfg backup/yolov3-tiny_10000.weights +图片地址
+```
+
 YOLO---多个版本的简单认识：[https://www.cnblogs.com/carle-09/p/11326272.html](https://www.cnblogs.com/carle-09/p/11326272.html)
 ```
 (1)测试一张图片---detect
