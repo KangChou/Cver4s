@@ -3,8 +3,8 @@ yolov1：[https://github.com/pjreddie/darknet](https://github.com/pjreddie/darkn
 darknet训练自己的数集:[https://blog.csdn.net/maizousidemao/article/details/103442356](https://blog.csdn.net/maizousidemao/article/details/103442356)
 
 其他参考：\
-https://www.cnblogs.com/answerThe/p/11481564.html\
-https://zhuanlan.zhihu.com/p/92141879?utm_source=qq
+https://www.cnblogs.com/answerThe/p/11481564.html \  
+https://zhuanlan.zhihu.com/p/92141879?utm_source=qq \
 
 ```
 需要的权重：wget https://pjreddie.com/media/files/darknet53.conv.74
