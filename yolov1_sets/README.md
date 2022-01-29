@@ -1,6 +1,11 @@
 yolov1：[https://github.com/pjreddie/darknet](https://github.com/pjreddie/darknet)
 
 darknet训练自己的数集:[https://blog.csdn.net/maizousidemao/article/details/103442356](https://blog.csdn.net/maizousidemao/article/details/103442356)
+
+其他参考：\
+https://www.cnblogs.com/answerThe/p/11481564.html\
+https://zhuanlan.zhihu.com/p/92141879?utm_source=qq
+
 ```
 需要的权重：wget https://pjreddie.com/media/files/darknet53.conv.74
 Ubuntu16.04配置安装darknet+OPENCV:https://blog.csdn.net/gzj_1101/article/details/78651650
