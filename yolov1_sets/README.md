@@ -106,3 +106,5 @@ YOLO（You Only Look Once，包括YOLOv1、YOLOv2、YOLOv3）使用tensorflow，
 (https://github.com/Robinatp/YOLO_Tensorflow)https://github.com/Robinatp/YOLO_Tensorflow
 
 YOLO 的 TensorFlow 实现，包括训练和测试阶段：[https://github.com/hizhangp/yolo_tensorflow](https://github.com/hizhangp/yolo_tensorflow)
+
+YOLO-V3可视化训练过程中的参数，绘制loss、IOU、avg Recall等的曲线图:[https://blog.csdn.net/qq_34806812/article/details/81459982](https://blog.csdn.net/qq_34806812/article/details/81459982)
