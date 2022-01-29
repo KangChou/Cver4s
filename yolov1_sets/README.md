@@ -2,6 +2,7 @@ yolov1：[https://github.com/pjreddie/darknet](https://github.com/pjreddie/darkn
 
 darknet训练自己的数集:[https://blog.csdn.net/maizousidemao/article/details/103442356](https://blog.csdn.net/maizousidemao/article/details/103442356)
 ```
+需要的权重：wget https://pjreddie.com/media/files/darknet53.conv.74
 Ubuntu16.04配置安装darknet+OPENCV:https://blog.csdn.net/gzj_1101/article/details/78651650
 ./darknet detector train cfg/voc.data cfg/yolov3-tiny.cfg | tee person_train_log.txt
 ./darknet detect cfg/yolov3-tiny.cfg backup/yolov3-tiny_10000.weights +图片地址
@@ -9,7 +10,7 @@ YOLOv3+opencv识别调用笔记本摄像头:
 ./darknet detector demo cfg/voc.data cfg/yolov3-voc.cfg weights/yolov3.weights -c 0
 
 训练：./darknet detector train cfg/coco.data cfg/yolov3.cfg darknet53.conv.74 -gpus 0,1,2,3
-测试：./darknet detector valid cfg/voc.data cfg/yolov3-voc.cfg backup/yolov3-voc_final.weights
+先评估一下测试：./darknet detector valid cfg/voc.data cfg/yolov3-voc.cfg backup/yolov3-voc_final.weights
 
 参数说明：
 
