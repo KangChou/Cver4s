@@ -9,7 +9,7 @@ https://www.cnblogs.com/answerThe/p/11481564.html \
 
 https://zhuanlan.zhihu.com/p/92141879?utm_source=qq 
 
-```
+
 需要的权重：
 ```
 wget https://pjreddie.com/media/files/darknet53.conv.74
@@ -40,7 +40,7 @@ YOLOv3+opencv识别调用笔记本摄像头: \
 
 
 参数说明：
-
+```
 [net]
 # Testing       #测试模式
  batch=1    
@@ -98,6 +98,8 @@ random=1    #如果显存小，设置为0，关闭多尺度训练，random设置
 
 
 ```
+
+
 Jetson nano + yolov5 + TensorRT加速+调用usb摄像头：[https://blog.csdn.net/hahasl555/article/details/116500763](https://blog.csdn.net/hahasl555/article/details/116500763)
 
 YOLO---多个版本的简单认识：[https://www.cnblogs.com/carle-09/p/11326272.html](https://www.cnblogs.com/carle-09/p/11326272.html)
