@@ -12,7 +12,7 @@
 wget https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7.pt
 
 
-pip install -i http://pypi.douban.com/simple/ --trusted-host=pypi.douban.com/simple opencv-python>=4.1.1 pandas==1.1.4
+pip install -r requirements.txt -i http://pypi.douban.com/simple/ --trusted-host=pypi.douban.com/simple
 
 python test.py --data data/coco.yaml --img 640 --batch 32 --conf 0.001 --iou 0.65 --device 0 --weights yolov7.pt --name yolov7_640_val
 
