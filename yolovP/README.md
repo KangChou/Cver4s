@@ -8,7 +8,7 @@
 
 - code: https://github.com/hustvl/YOLOP
 - paper: https://arxiv.org/abs/2108.11250
-- 
+
 ---
 
 [中文文档](https://github.com/hustvl/YOLOP/blob/main/README%20_CH.md)
