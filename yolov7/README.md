@@ -21,7 +21,8 @@ wget https://raw.githubusercontent.com/ultralytics/yolov5/master/data/images/zid
 
 python detect.py --weights yolov7.pt --conf 0.25 --img-size 640 --source zidane.jpg
 
+下载视频：https://github.com/KangChou/Cver4s/blob/main/toolscv/video.mp4
 
-
+python detect.py --weights yolov7.pt --conf 0.25 --img-size 640 --source video.mp4
 
 ```
