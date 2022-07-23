@@ -26,3 +26,17 @@ python detect.py --weights yolov7.pt --conf 0.25 --img-size 640 --source zidane.
 python detect.py --weights yolov7.pt --conf 0.25 --img-size 640 --source video.mp4
 
 ```
+
+
+other：
+
+https://github.com/AlexeyAB/darknet
+https://github.com/WongKinYiu/yolor
+https://github.com/WongKinYiu/PyTorch_YOLOv4
+https://github.com/WongKinYiu/ScaledYOLOv4
+https://github.com/Megvii-BaseDetection/YOLOX
+https://github.com/ultralytics/yolov3
+https://github.com/ultralytics/yolov5
+https://github.com/DingXiaoH/RepVGG
+https://github.com/JUGGHM/OREPA_CVPR2022
+https://github.com/TexasInstruments/edgeai-yolov5/tree/yolo-pose
