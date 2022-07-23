@@ -1,4 +1,4 @@
-# Cver4s
+# Cver4s: YOLO系列
 Cver4s：Computer vision algorithm code base
 
 整理资料不容易，记得标星，O(∩_∩)O谢谢！
