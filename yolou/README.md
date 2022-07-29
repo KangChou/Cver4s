@@ -11,8 +11,7 @@ CODE:https://github.com/jizhishutong/YOLOU
 
 ​	Here "U" means United, mainly to gather more algorithms about the YOLO series through this project, so that friends can better learn the knowledge of object detection. At the same time, in order to better apply AI technology, YOLOU will also join The corresponding Deploy technology will accelerate the implementation of the algorithms we have learned and realize the value.
 
-![YOLOU](./images/YOLOU.png)
-
+![image](https://user-images.githubusercontent.com/36963108/181747247-00046331-8a6c-470c-9a7c-a8d630cd4c9f.png)
 At present, the YOLO series algorithms mainly included in YOLOU are:
 
 **Anchor-base**: YOLOv3, YOLOv4, YOLOv5, YOLOv5-Lite,  YOLOv7
