@@ -1,7 +1,7 @@
 # Yolov5 + Deep Sort with PyTorch
 
 
-
+code : https://github.com/mikel-brostrom/Yolov5_StrongSORT_OSNet
 
 
 <div align="center">
