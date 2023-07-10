@@ -9,3 +9,8 @@ Cver4s：Computer vision algorithm code base
 
 ![image](https://user-images.githubusercontent.com/36963108/163676068-3aac29a3-95d5-4fd1-9e04-ae54ceb415fb.png)
 
+
+论文参考：
+
+https://github.com/KangChou/deepcv_project_demo/tree/main/CVPR/visual
+
